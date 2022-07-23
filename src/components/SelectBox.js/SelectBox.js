@@ -15,7 +15,7 @@ export default function SelectBox({language}) {
 
   const lan = language.map((lan,index) => {
     return(
-        <MenuItem value={index} style={{color:'white',background:'black'}}>{lan}</MenuItem>
+        <MenuItem value={index} >{lan}</MenuItem>
     )
   })
 
