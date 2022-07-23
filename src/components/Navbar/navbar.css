@@ -1,0 +1,15 @@
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent !important;
+}
+.nav-items img{
+    width: 100px;
+}
+.nav-right-item{
+    display: flex;
+    align-items: center;
+}
