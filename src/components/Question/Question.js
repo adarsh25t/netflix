@@ -5,6 +5,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import { Fragment } from 'react';
 import { Typography } from '@mui/material';
 import './question.css'
+import GetEmail from '../Getemail/GetEmail';
 
 function Questions() {
   return (
@@ -12,8 +13,8 @@ function Questions() {
         <p className='top-border'></p>
         <Container>
             <Typography variant="h3" component="h2" className='question-title'>Frequently Asked Questions</Typography>
-        <Row style={{paddingBottom:"40px"}}>
-            <Col  md={{ span: 8, offset: 2 }}>
+        <Row >
+            <Col  md={{ span: 8, offset: 2 }} style={{paddingBottom:'60px'}}>
             <Accordion>
 
                 <Accordion.Item eventKey="0" className='question-wrapper'>
@@ -63,6 +64,7 @@ function Questions() {
 
                 </Accordion>
             </Col>
+            <GetEmail/>
         </Row>
     </Container>
     </Fragment>
