@@ -6,6 +6,7 @@ import cartoon from '../images/cartton.png'
 import mobile from '../images/mobile.jpg'
 import lap from '../images/lap.png'
 import { FormatColorResetRounded } from '@mui/icons-material'
+import Questions from '../components/Question/Question.js'
 
 const slide1 = {
   title:"Enjoy on your TV.",
@@ -40,6 +41,7 @@ function Home() {
         <Slide data={slide3}/>
         <Slide data={slide4}/>
         <Slide data={slide2}/>
+        <Questions/>
     </div>
   )
 }
