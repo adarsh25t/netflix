@@ -23,13 +23,13 @@ const slide3 = {
   title:"Download your shows to watch offline.",
   para:"Save your favourites easily and always have something to watch.",
   image:mobile,
-  isReverse:false
+  isReverse:true
 }
 const slide4 = {
   title:"Watch everywhere.",
   para:"Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
   image:lap,
-  isReverse:true
+  isReverse:false
 }
 
 function Home() {
@@ -37,9 +37,9 @@ function Home() {
     <div>
         <Banner/>
         <Slide data={slide1}/>
-        <Slide data={slide2}/>
         <Slide data={slide3}/>
         <Slide data={slide4}/>
+        <Slide data={slide2}/>
     </div>
   )
 }
