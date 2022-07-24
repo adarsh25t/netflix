@@ -22,13 +22,9 @@
 .banner-details h4{
     font-size: 25px;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: 15px;
 }
-.banner-details p{
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: -10px;
-}
+
 
 
 @media screen and (max-width:780px){
