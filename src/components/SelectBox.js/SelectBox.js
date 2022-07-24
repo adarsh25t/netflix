@@ -4,6 +4,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import LanguageIcon from '@mui/icons-material/Language';
 import './selectbox.css'
 
 export default function SelectBox({language}) {
@@ -15,7 +16,7 @@ export default function SelectBox({language}) {
 
   const lan = language.map((lan,index) => {
     return(
-        <MenuItem value={index} >{lan}</MenuItem>
+        <MenuItem value={index} ><LanguageIcon/> {lan}</MenuItem>
     )
   })
 

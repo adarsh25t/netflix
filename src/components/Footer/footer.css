@@ -1,0 +1,10 @@
+.footer-links a{
+    color: gray !important;
+    text-align: left !important;
+    text-decoration: none;
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

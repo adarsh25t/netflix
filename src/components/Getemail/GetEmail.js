@@ -11,7 +11,7 @@ function GetEmail() {
   return (
     <Container>
         <Row>
-            <Col md={{ span: 6, offset: 3 }}>
+            <Col md={{ span: 6, offset: 3 }} style={{marginBottom:'80px'}}>
                 <p className='get-email-text'>Ready to watch? Enter your email to create or restart your membership.</p>
                 <Box className='get-email-input'>
                     <input type="text" placeholder='Email'/>
