@@ -4,6 +4,7 @@
     align-items: center;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 10px;
     background-color: transparent !important;
 }
 .nav-items img{
@@ -12,4 +13,8 @@
 .nav-right-item{
     display: flex;
     align-items: center;
+}
+.nav-right-item a{
+    color: white;
+    text-decoration: none;
 }

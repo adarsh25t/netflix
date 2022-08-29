@@ -6,7 +6,7 @@ import BannerDetails from './BannerDetails'
 function Banner() {
   return (
     <div className='banner-wrapper'>
-        <Navbar/>
+        <Navbar isRight/>
         <BannerDetails/>
     </div>
   )

@@ -4,8 +4,9 @@ import Button from '@mui/material/Button';
 import logo from '../../images/logo.png'
 import './navbar.css'
 import SelectBox from '../SelectBox.js/SelectBox';
+import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+export default function Navbar({isRight}) {
 
     const [language,setLanguage] = React.useState(["Eng","हिन्दी","മലയാളം"])
 
@@ -13,10 +14,12 @@ export default function Navbar() {
     return (
         <Box className='nav-items'>
             <img src={logo} alt="" />
-            <Box className='nav-right-item'>
-                <SelectBox language={language}/>
-                <Button variant="contained">Sign In</Button>
-            </Box>
+            {isRight && 
+                <Box className='nav-right-item'>
+                    <SelectBox language={language}/>
+                    <Button variant="contained"> <Link to={'/authentication'}>Sign In</Link> </Button>
+                </Box>
+            }
         </Box>
     );
 }
