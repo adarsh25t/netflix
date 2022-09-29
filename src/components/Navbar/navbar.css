@@ -18,3 +18,17 @@
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width:580px){
+    .nav-items{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .nav-items img{
+        width: 80px;
+    }
+    .nav-right-item button{
+       height: 40px;
+    }
+    
+}

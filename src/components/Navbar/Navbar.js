@@ -16,7 +16,7 @@ export default function Navbar({isRight}) {
             <img src={logo} alt="" />
             {isRight && 
                 <Box className='nav-right-item'>
-                    <SelectBox language={language}/>
+                    <SelectBox language={language} className="lan-select-box"/>
                     <Button variant="contained"> <Link to={'/authentication'}>Sign In</Link> </Button>
                 </Box>
             }
