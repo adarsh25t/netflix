@@ -1,3 +1,8 @@
+:root {
+  --button: #e50914;
+  --white: #ffffff;
+}
+
 .App {
   text-align: center;
   background-color: black;
@@ -43,4 +48,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.profiles-page{
+  height: 100vh;
+}
+.profile-wrapper {
+  width: 120px;
+}
+.profile-wrapper img{
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+}
+.add-profile{
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+}
+.profile-wrapper h5 {
+  padding-top: 10px;
+}
+.profiles-btn {
+  background: transparent !important;
+  border: 1px solid gray !important;
+  border-radius: 0px !important;
+  color: gray !important;
+  padding: 5px 15px !important;
+}
+.profiles-btn:hover {
+  background-color: var(--button) !important;
+  border-color: var(--button) !important;
 }

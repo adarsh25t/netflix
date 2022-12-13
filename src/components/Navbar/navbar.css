@@ -1,20 +1,17 @@
 .nav-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
     background-color: transparent !important;
 }
-.nav-items img{
+.nav-image{
     width: 100px;
+    height: 30px;
 }
-.nav-right-item{
-    display: flex;
-    align-items: center;
+.nav-right-item-button {
+    height: 40px;
 }
-.nav-right-item a{
+.nav-right-item-button a{
     color: white;
     text-decoration: none;
 }
@@ -24,10 +21,10 @@
         padding-left: 25px;
         padding-right: 25px;
     }
-    .nav-items img{
+    .nav-image{
         width: 80px;
     }
-    .nav-right-item button{
+    .nav-right-item-button{
        height: 40px;
     }
     
